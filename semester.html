@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRR IT Learners - Semester</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>CRR IT Learners</h1>
+            </div>
+            <button class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="semester.html" class="nav-link">Study Materials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Study Resources Section (kept as requested) -->
+
+            <!-- Resources section -->
+            <section class="resources-section">
+                <h2>Study Resources</h2>
+                <div class="resources-tabs">
+                    <button class="tab-button active" data-tab="syllabus">Syllabus</button>
+                    <button class="tab-button" data-tab="materials">Study Materials</button>
+                    <button class="tab-button" data-tab="papers">Question Papers</button>
+                </div>
+
+                <div class="tab-content">
+                    <div id="syllabus" class="tab-pane active">
+                        <div class="iframe-container">
+                            <iframe 
+                                src="https://docs.google.com/spreadsheets/d/1vVCmyutBC8qOtNfOv4nKfjGZWctkFu4ARsN9zTlzw3Y/preview"
+                                frameborder="0"
+                                title="Syllabus">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div id="materials" class="tab-pane">
+                        <div class="iframe-container">
+                            <iframe 
+                                src="https://docs.google.com/spreadsheets/d/1aahA-k25OzvyAHCu2fBIOtUhsADY-HYGcRui8KeFwmA/preview"
+                                frameborder="0"
+                                title="Study Materials">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div id="papers" class="tab-pane">
+                        <div class="iframe-container">
+                            <iframe 
+                                src="https://docs.google.com/spreadsheets/d/15Op5XHbA-tPLHM_XQ3koou_YLYag94uHjT3Oh8lkrcM/preview"
+                                frameborder="0"
+                                title="Question Papers">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Navigation between semesters -->
+            <section class="semester-navigation">
+                <div class="nav-buttons">
+                    <button id="prev-semester" class="nav-btn prev-btn" style="display: none;">
+                        ← Previous Semester
+                    </button>
+                    <button id="next-semester" class="nav-btn next-btn" style="display: none;">
+                        Next Semester →
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CRR IT Learners. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

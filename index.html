@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRR IT Learners - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="pathways.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>CRR IT Learners</h1>
+            </div>
+            <button class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="semester.html" class="nav-link">Study Materials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to CRR IT Learners</h1>
+                <p>Your comprehensive resource for IT career pathways, study materials, and professional development resources.</p>
+                <div class="hero-buttons">
+                    <a href="#career-pathways" class="btn btn-primary">Explore Career Paths</a>
+                    <a href="semester.html" class="btn btn-secondary">Study Materials</a>
+                    <a href="contact.html" class="btn btn-tertiary">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="career-pathways" class="career-pathways">
+            <div class="container">
+                <h2>Career Pathways</h2>
+                <p class="section-subtitle">Explore different IT career paths and the skills you need to succeed</p>
+                
+                <div class="pathways-grid" id="pathways-container">
+                    <!-- Career pathway cards will be dynamically inserted here -->
+                </div>
+
+                <!-- Pathway Details Modal -->
+                <div id="pathway-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn">&times;</span>
+                        <div id="pathway-details">
+                            <!-- Dynamic content will be inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CRR IT Learners. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

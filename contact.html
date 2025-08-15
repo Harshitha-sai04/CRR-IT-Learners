@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRR IT Learners - Contact Us</title>
+    <style>
+        iframe {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>CRR IT Learners</h1>
+            </div>
+            <button class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="semester.html" class="nav-link">Study Materials</a>
+                </li>
+
+                <li class="nav-item">
+                    <form action="https://formsubmit.co/crritlearners@gmail.com" method="POST" class="custom-form">
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display:none">
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Success Page -->
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content" style="min-height: 100vh; display: flex; flex-direction: column;">
+        <div class="container" style="flex: 1; display: flex; flex-direction: column;">
+            <div class="page-header" style="padding: 20px 0;">
+                <h1>Contact Us</h1>
+            </div>
+
+            <div class="contact-content" style="flex: 1; display: flex; flex-direction: column; max-width: 100%; margin: 0; padding: 0 20px;">
+                <!-- Google Form Section -->
+                <div class="contact-form-section" style="flex: 1; display: flex; flex-direction: column; padding: 0; background: #f8f9fa;">
+                    <div style="flex: 1; display: flex; flex-direction: column; width: 100%; max-width: 100%; margin: 0; padding: 0 20px;">
+                        
+                        <div style="flex: 1; display: flex; flex-direction: column; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; width: 100%; max-width: 100%; margin: 0 auto;">
+                            <div style="flex: 1; display: flex; flex-direction: column; width: 100%; overflow: hidden; position: relative;">
+                                <iframe 
+                                    src="https://docs.google.com/forms/d/e/1FAIpQLSc8wjqrkRXHsGT9vjMmwy2AI7HtIs3YjKs4ZVqvjHNb8jf87Q/viewform?embedded=true" 
+                                    width="100%" 
+                                    height="100%" 
+                                    frameborder="0" 
+                                    marginheight="0" 
+                                    marginwidth="0"
+                                    style="flex: 1; border: none; margin: 0; min-height: 80vh;">
+                                    Loading…
+                                </iframe>
+                            </div>
+                            <div style="text-align: center; padding: 15px; background: #f9f9f9; border-top: 1px solid #f0f0f0;">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8wjqrkRXHsGT9vjMmwy2AI7HtIs3YjKs4ZVqvjHNb8jf87Q/viewform?usp=sf_link" 
+                                   target="_blank" 
+                                   style="display: inline-flex; align-items: center; color: #4CAF50; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s ease;">
+                                    <span>Having trouble with the form? Open in a new tab</span>
+                                    <span style="margin-left: 6px; font-size: 0.9em; transition: transform 0.2s ease;">↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Info Section -->
+                <div class="contact-info" style="padding: 60px 0; background: #fff;">
+                    <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+                        <div style="text-align: center; margin-bottom: 50px;">
+                            <h2 style="font-size: 2.2rem; color: #2c3e50; margin: 0 0 15px 0; display: inline-block;">
+                                Get in Touch
+                                <span style="display: block; width: 60px; height: 3px; background: #4CAF50; margin: 12px auto 0;"></span>
+                            </h2>
+                            <p style="color: #7f8c8d; font-size: 1.1rem; max-width: 700px; margin: 15px auto 0;">
+                                Have questions about the study materials, need help navigating the resources, or want to suggest improvements? We'd love to hear from you!<br>
+                                <strong>Email:</strong> <a href="mailto:crritlearners@gmail.com" style="color: #2563eb; text-decoration: none;">crritlearners@gmail.com</a>
+                            </p>
+                        </div>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <h3>Email Us</h3>
+                                <p>Reach out for quick responses to your queries</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">💬</div>
+                                <h3>Feedback</h3>
+                                <p>Help us improve by sharing your suggestions</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">🐛</div>
+                                <h3>Report Issues</h3>
+                                <p>Found a broken link or missing material? Let us know</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CRR IT Learners. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
