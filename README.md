@@ -14,9 +14,6 @@ A clean, responsive website that helps students explore **IT career pathways** a
 
 **CRR IT Learners** is a static, user-friendly educational portal designed to centralize all academic resources for IT students. It removes the hassle of searching through scattered sources like WhatsApp groups by providing a single, organized platform.
 
-**Suggested About section text for GitHub repo:**
-
-> A static website for IT students offering career pathways, semester-wise study resources, and integrated Google Sheets/Forms for real-time updates.
 
 ---
 
@@ -49,8 +46,8 @@ To create a publicly accessible, easily maintainable, and mobile-friendly platfo
 
 ## Screenshots
  
-<img src="https://github.com/Harshitha-sai04/CRR-IT-Learners/blob/e43c9c0ed900fdd3f5db6995e3402bea83b6bb42/firebase/Homepage.png" alt="Home Page" width="500">
-<img src="https://raw.githubusercontent.com/Harshitha-sai04/CRR-IT-Learners/main/assets/screenshots/home-desktop.png" alt="Home Page" width="500">
+<img src="https://github.com/Harshitha-sai04/CRR-IT-Learners/blob/4cfa72849816d3f8626cb7b340c1c47b88741f12/Homepage.png" alt="Home Page" width="500">
+<img src="https://github.com/Harshitha-sai04/CRR-IT-Learners/blob/4cfa72849816d3f8626cb7b340c1c47b88741f12/Study%20Resouces.png" alt="Home Page" width="500">
 
 
 
