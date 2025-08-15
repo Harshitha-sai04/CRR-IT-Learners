@@ -46,7 +46,7 @@ To create a publicly accessible, easily maintainable, and mobile-friendly platfo
 
 ## Screenshots
  
-<img src="https://github.com/Harshitha-sai04/CRR-IT-Learners/blob/4cfa72849816d3f8626cb7b340c1c47b88741f12/Homepage.png" alt="Home Page" width="500">
+<img src="https://github.com/Harshitha-sai04/CRR-IT-Learners/blob/5d4e184580d9cbfcf0b9bfcf8cc799ef1a3661ee/Homepage.png" alt="Home Page" width="500">
 <img src="https://github.com/Harshitha-sai04/CRR-IT-Learners/blob/4cfa72849816d3f8626cb7b340c1c47b88741f12/Study%20Resouces.png" alt="Home Page" width="500">
 
 
